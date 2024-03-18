@@ -1,0 +1,47 @@
+
+body {
+    position: absolute;
+}
+
+h1{
+    color: blue;
+}
+
+div {
+    border: 1px solid red;
+    width: 500px;
+    margin: auto;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: name;
+}
+
+.Items {
+    border: 1px solid blue;
+    width: 60px;
+    height: 40px;
+    margin: 0;
+}
+
+.Item1 {
+    background-color: aquamarine;
+}
+.Item2 {
+    background-color: aquamarine;
+}
+.Item3 {
+    background-color: hsl(7, 100%, 75%);
+
+}
+.Item4 {
+    background-color: aquamarine;
+}
+.Item5 {
+    background-color: aquamarine;
+}

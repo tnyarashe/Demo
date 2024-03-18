@@ -1,0 +1,61 @@
+
+img {
+    width: 50px;
+    height: 50px;
+}
+.my-label {
+    font-size: 18px;
+}
+
+.my-text, .my-button {
+    height: 28px;
+    font-size: 18px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    border: 1px solid;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.my-text:hover{
+    border: 1px rgb(197, 212, 61);
+}
+
+.my-button {
+    width: 250px;
+    height: 35px;
+    background-color: hsl(180, 5%, 21%);
+    color: white;
+    font-weight: bold;
+}
+.my-button:hover{
+    background-color: rgb(98, 24, 100);
+}
+
+.holder {
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+    gap: 15px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.under-button {
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+.under-button a {
+    text-decoration: none;
+    color: grey;
+}
+
+.under-button a:hover{
+    color: green;
+}
