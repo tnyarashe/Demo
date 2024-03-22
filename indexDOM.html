@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <input type = "number"  id="num1">
+    <input type="number" id="num2">
+
+    <button id="btnView">Add</button>
+    <p>Display Results</p>
+    <p class="the-text" id="pText"></p>
+    <input type="text" id="results">
+    <div>
+        <p style="font-size: 4rem;" id="emoticon">👍🏾</p>
+        <button id="toggler">Toggle me!</button>
+    </div>
+
+    <div class="container" id="mainDiv">
+        <button>Hello</button>
+    </div>
+
+    <script>
+        let a = document.getElementById("num1")
+        let b = document.getElementById("num2")
+        let c = document.getElementById("results")
+        let p = document.getElementById("emoticon")
+
+
+        let btn = document.querySelector("#btnView")
+        let toggler = document.querySelector("#toggler")
+        let output = document.querySelector("#pText")
+
+        btn.addEventListener("click", ()=>{
+            c.style.border = "1px solid red"
+            output.style.border = "1px solid black"
+            let results = parseInt(a.value) + parseInt(b.value)
+            output.innerHTML = results
+            c.value = results
+        })
+
+        toggler.addEventListener("click", ()=>{
+            if (p.innerHTML == "👍🏾") {
+                p.innerHTML = "👎🏾"
+            } else if (p.innerHTML == "👎🏾") {
+                p.innerHTML = "👍🏾"
+            }
+        })
+    </script>
+</body>
+</html>
