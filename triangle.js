@@ -13,6 +13,5 @@ for (i = x; i > 0; i--) {
         for (k = 1; k <= i; k++){
             b += "*"
         }
-
     console.log(b)
 }
